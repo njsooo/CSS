@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+input[type="checkbox"] {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+label {
+  font-size: 1.5rem;
+  margin-right: 0.5rem;
+  vertical-align: bottom;
+}
+
+body {
+  background-color: #eee;
+}
+
+.controls {
+  margin: 1rem 0 2.5rem 1rem;
+}
+
+.checkbox-container {
+  margin-bottom: 1rem;
+}
+
+.control input {
+  padding: 0.5rem;
+  margin-right: 0.75rem;
+}
+
+.item {
+  width: 150px;
+  height: 50px;
+  margin-bottom: 1rem;
+  background-color: orange;
+  color: #fff;
+  font-size: 1.5rem;
+  line-height: 50px;
+  text-align: center;
+}
+
+.btn {
+  border: none;
+  background-color: gray;
+}
