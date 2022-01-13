@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Stylelint Template</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2>ORIGIN</h2>
+      <svg>
+        <use href="./icon.svg#facebook"></use>
+      </svg>
+      <svg>
+        <use href="./icon.svg#twitter"></use>
+      </svg>
+      <svg>
+        <use href="./icon.svg#linkedin"></use>
+      </svg>
+    </div>
+    <div class="container">
+      <h2>STYLED</h2>
+      <div class="icons-container">
+        <a href="#" class="icon-container icon-container-facebook">
+          <svg class="icon facebook">
+            <use href="./icon.svg#facebook"></use>
+          </svg>
+        </a>
+        <a href="#" class="icon-container icon-container-twitter">
+          <svg class="icon twitter">
+            <use href="./icon.svg#twitter"></use>
+          </svg>
+        </a>
+        <a href="#" class="icon-container icon-container-linkedin">
+          <svg class="icon linkedin">
+            <use href="./icon.svg#linkedin"></use>
+          </svg>
+        </a>
+      </div>
+    </div>
+    <div class="alert">
+      <h2 class="alert-title">OPEN USING SERVER NOT THE FILE URL</h2>
+      <p class="alert-desc">Unsafe attempt to load URL <URL> from frame with URL <URL>. 'file:' URLs are treated as unique security origins.</p>
+    </div>
+  </body>
+</html>

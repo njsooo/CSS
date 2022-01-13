@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background-color: #ccc;
+}
+
+.container {
+  width: 1200px;
+  margin: 2rem auto;
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 2rem;
+  color: #fff;
+  font-size: 3rem;
+}
+
+.icon-container {
+  display: inline-flex;
+  justify-content: center;
+  width: 12em;
+  height: 12rem;
+  margin: 0 3.5rem;
+  border: 2px solid;
+  border-radius: 50%;
+  background-color: transparent;
+  transition: background-color 0.15s;
+}
+
+.icon-container-facebook {
+  border-color: #3b5998;
+}
+
+.icon-container-facebook:hover {
+  background-color: #3b5998;
+}
+
+.icon-container-twitter {
+  border-color: #1da1f2;
+}
+
+.icon-container-twitter:hover {
+  background-color: #1da1f2;
+}
+
+.icon-container-linkedin {
+  border-color: #0077b5;
+}
+
+.icon-container-linkedin:hover {
+  background-color: #0077b5;
+}
+
+.icon-container:hover svg.icon {
+  width: 8rem;
+  fill: #fff;
+}
+
+svg.icon {
+  width: 6rem;
+  transition: width 0.3s, fill 0.15s;
+}
+
+svg.facebook {
+  fill: #3b5998;
+}
+
+svg.twitter {
+  fill: #1da1f2;
+}
+
+svg.linkedin {
+  fill: #0077b5;
+}
+
+.alert {
+  margin-top: 5rem;
+  text-align: center;
+}
+
+.alert-title {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.alert-desc {
+  font-size: 1.5rem;
+  color: #fff;
+}
