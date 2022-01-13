@@ -8,3 +8,5 @@
 - [2](https://ldrerin.tistory.com/398)
 - [3](https://nykim.work/35)
 - [4](https://junojunho.com/front-end/svg-icon)
+- [5](https://a11y.gitbook.io/graphics-aria/svg-graphics/sprites)
+- [svgxuse](https://github.com/Keyamoon/svgxuse)
